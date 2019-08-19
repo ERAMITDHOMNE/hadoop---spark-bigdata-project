@@ -95,9 +95,5 @@ Read file from Apache Spark shell : val file=sc.textFile("/usr/local/spark/examp
 Flaten the file, prcess and split , with each word : valflattenFile = file.flatMap(s =>s.split(", "))
 Check the content of RDD : flattenFile.collect
 Count all words from RDD : val count = flattenFile.count
-Working with Data and Storage +
-
-Chua hoc
-
-4 (RDD transformation),
+Working with Data and Storage + (RDD transformation),
 
